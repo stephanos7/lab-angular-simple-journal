@@ -10,11 +10,13 @@ import { RetrieveEntriesService } from './services/retrieve-entries.service';
 import { AppComponent } from './app.component';
 import { routes } from './routes/app-routes';
 import { EntryListComponent } from './components/entry-list/entry-list.component';
+import { SingEntryComponent } from './components/sing-entry/sing-entry.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    EntryListComponent
+    EntryListComponent,
+    SingEntryComponent
   ],
   imports: [
     BrowserModule,
